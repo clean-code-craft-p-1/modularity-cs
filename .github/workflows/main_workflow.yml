@@ -27,4 +27,4 @@ jobs:
         dotnet-version: ${{ env.DOTNET_VERSION }}
 
     - name: Run the App
-      run: dotnet run --project TelCo.ColorCoder 
+      run: dotnet run
